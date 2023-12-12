@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/java/features/"},
         dryRun = true,
         monochrome = true,
-        glue = {"stepDefinition","Hooks"},
+        glue = {"stepDefinition","Hooks"},git
         plugin = {"html:src/Reports/Reports.html"}
 //        tags = "@smoke"
 )
